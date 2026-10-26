@@ -137,7 +137,7 @@ function App() {
             <a href="#como-funciona" onClick={closeMenu}>Cómo funciona</a>
             <a href="#planes" onClick={closeMenu}>Planes</a>
             <a href="#nosotros" onClick={() => { closeMenu(); setDetailsOpen(false); }}>Nosotros</a>
-            <button className="nav-cta" onClick={() => { closeMenu(); setDetailsOpen(true); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Investigación <ArrowRight size={15} /></button>
+            <button className="nav-cta2" onClick={() => { closeMenu(); setDetailsOpen(true); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Investigación <ArrowRight size={15} /></button>
             <button className="nav-cta" onClick={() => { closeMenu(); openContact(); }}>Hablemos <ArrowUpRight size={15} /></button>
           </nav>
         </div>

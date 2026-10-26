@@ -190,6 +190,20 @@ button {
   transition: all .2s
 }
 
+.nav-cta2 {
+  border: 1px solid #9cfb54;
+  background: #b3ebc8;
+  border-radius: 8px;
+  padding: 11px 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 700;
+  transition: all .2s
+}
+
 .nav-cta:hover {
   background: #e9efe8;
   border-color: #c4d2c4
