@@ -50,6 +50,9 @@ function DocBlocks({ blocks }) {
 function DetailsView({ onBack }) {
   const sections = [
     {
+      number: '', title: 'Integrantes', body: 'Laura Ortiz, Valeria Cardona, Isabella Marquez, Erick Ochoa y José David Toro'
+    },
+    {
       number: '1.', title: 'Diagnóstico del ecosistema', subsections: [
         { title: '1.1. Problema y oportunidad', body: 'La búsqueda laboral ocurre en distintos portales, herramientas y servicios que no siempre están conectados. Los profesionales deben identificar oportunidades, comparar requisitos, adaptar sus hojas de vida, gestionar postulaciones y prepararse para los cargos que les interesan. RAPIEMPLEO propone integrar la búsqueda de empleo y el desarrollo profesional en un mismo ecosistema digital. Este diagnóstico es una hipótesis que debe validarse con usuarios.' },
         { title: '1.2. Actores e intercambios de valor', body: 'Profesionales: usuarios y clientes pagadores que reciben herramientas para gestionar su búsqueda y desarrollo. Empresas empleadoras: generan oportunidades y definen requisitos. Portales de empleo: proporcionan acceso a vacantes mediante fuentes e integraciones permitidas. Universidades y entidades formativas: aportan cursos y recursos. Profesionales de orientación laboral: complementan la solución con asesoría. Proveedores tecnológicos: habilitan la operación digital, el procesamiento de información y la seguridad. RAPIEMPLEO integra información y conecta oportunidades con acciones de preparación.' },
