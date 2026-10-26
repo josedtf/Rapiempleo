@@ -259,7 +259,7 @@ function App() {
                 <div className="plan-label">PARA AVANZAR</div>
                 <h3>Premium integrado</h3>
                 <p className="plan-description">Búsqueda y desarrollo en una misma ruta.</p>
-                <div className="price"><strong>$25.000–40.000</strong><span>COP / mes · hipótesis inicial</span></div>
+                <div className="price"><strong>$30.000</strong><span>COP / mes · hipótesis inicial</span></div>
                 <div className="price-divider"></div>
                 <ul>
                   <li><Check size={16}/> Comparación ampliada de perfil y vacantes</li>
